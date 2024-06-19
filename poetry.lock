@@ -35,6 +35,59 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "django-parler"
+version = "2.3"
+description = "Simple Django model translations without nasty hacks, featuring nice admin integration."
+optional = false
+python-versions = "*"
+files = [
+    {file = "django-parler-2.3.tar.gz", hash = "sha256:2c8f5012ceb5e49af93b16ea3fe4d0c83d70b91b2d0f470c05d7d742b6f3083d"},
+    {file = "django_parler-2.3-py3-none-any.whl", hash = "sha256:8f6c8061e4b5690f1ee2d8e5760940ef06bf78a5bfa033d11178377559c749cf"},
+]
+
+[package.dependencies]
+Django = ">=2.2"
+
+[[package]]
+name = "django-richtextfield"
+version = "1.6.2"
+description = "A Django model field and widget that renders a customizable WYSIWYG/rich text editor"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "django-richtextfield-1.6.2.tar.gz", hash = "sha256:7efe9c397437922ed6ca3071b7a54db5bf8ebfa4ced7172dfb0b7472df66b0c4"},
+    {file = "django_richtextfield-1.6.2-py3-none-any.whl", hash = "sha256:56b7404f52ae9a313bcbdb4c47aea16e5fa26a48539c1221e3de39186ee839bf"},
+]
+
+[[package]]
+name = "django-solo"
+version = "2.2.0"
+description = "Django Solo helps working with singletons"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "django-solo-2.2.0.tar.gz", hash = "sha256:056a280816097b144c24129125b6d98a568e8e48c30402a16ce324ce2eb61237"},
+    {file = "django_solo-2.2.0-py3-none-any.whl", hash = "sha256:81ad30a412d36f8bdbe5622df06d6051e4264344222858c919e990d339e677e8"},
+]
+
+[package.dependencies]
+django = ">=3.2"
+
+[[package]]
+name = "djangorestframework"
+version = "3.15.2"
+description = "Web APIs for Django, made easy."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "djangorestframework-3.15.2-py3-none-any.whl", hash = "sha256:2b8871b062ba1aefc2de01f773875441a961fefbf79f5eed1e32b2f096944b20"},
+    {file = "djangorestframework-3.15.2.tar.gz", hash = "sha256:36fe88cd2d6c6bec23dca9804bab2ba5517a8bb9d8f47ebc68981b56840107ad"},
+]
+
+[package.dependencies]
+django = ">=4.2"
+
+[[package]]
 name = "python-dotenv"
 version = "1.0.1"
 description = "Read key-value pairs from a .env file and set them as environment variables"
@@ -77,4 +130,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "037fcbde52df609d4ddc717aa1012851f4813bb805433a62373a4af3974f40a4"
+content-hash = "0d6808ee44b48f66daaa8e9b5bbae2ffd7e52cd8a27505060370eca38ed76aac"
